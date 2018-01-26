@@ -11,7 +11,7 @@ contract('QuantumManager', function(accounts) {
 
   describe('structs', async function() {
     it('should contain a struct for "tournament"', async function() {
-      console.log(instance.tournament);
+      console.log(instance.Tournament);
       assert.equal(1, 1);
     });
   });
