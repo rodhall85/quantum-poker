@@ -2,8 +2,10 @@ pragma solidity ^0.4.18;
 
 contract QuantumStructs {
   struct Tournament {
+    uint id;
     string name;
-    uint startTime;
+    uint createdTime;
+    /*uint startTime;
     uint entryFee;
     uint depositGas;
     uint startingStack;
@@ -11,7 +13,7 @@ contract QuantumStructs {
     Player[] players;
     Level[] blindStructure;
     bool tournamentStarted;
-    bool tournamentEnded;
+    bool tournamentEnded;*/
   }
 
   struct Player {
