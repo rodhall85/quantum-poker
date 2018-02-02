@@ -5,11 +5,11 @@ contract QuantumStructs {
     uint id;
     string name;
     uint createdTime;
-    /*uint startTime;
+    uint startTime;
     uint entryFee;
     uint depositGas;
     uint startingStack;
-    Hand currentHand;
+    /*Hand currentHand;
     Player[] players;
     Level[] blindStructure;
     bool tournamentStarted;
